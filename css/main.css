@@ -1,4 +1,7 @@
 .features .glyphicon{
     font-size: 32px;
-    color: #333;
+    color: #337AB7;
+}
+.features h3{
+    color: #337AB7;
 }

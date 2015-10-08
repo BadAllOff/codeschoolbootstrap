@@ -23,10 +23,18 @@
         <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
             <li><a href="tickets.html">Tickets</a></li>
             <li><a href="stations.html">Stations</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Our Story</a></li>
-            <li><a href="about.html">Contact Us</a></li>
-            <li><a href="about.html">Blog</a></li>
+            <li>
+                <a href="about.html" data-target="#" data-toggle="dropdown">About <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://twitter.com">Twitter</a></li>
+                    <li><a href="http://facebook.com">Facebook</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
 </div>
@@ -35,18 +43,21 @@
         <div class="col-md-6">
             <h2>The fastest way to space</h2>
 
-            <p>Make your way to space in the comfort of your own rocket, elevator or
+            <p class="lead">Make your way to space in the comfort of your own rocket, elevator or
                 transporter.</p>
             <button class="btn btn-lg btn-default" type="button">Take a Tour</button>
             <button class="btn btn-lg btn-default btn-primary" type="button">Book
                 Tickets Now
             </button>
         </div>
+        <div class="col-md-6 visible-lg visible-md">
+            <img src="images/waterface.jpg" alt="" class="img-responsive img-rounded"/>
+        </div>
     </div>
 </div>
 <div class="container">
     <div class="row text-center features">
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
             <i class="glyphicon glyphicon-briefcase"></i>
 
             <h3>Book today!</h3>
@@ -59,7 +70,7 @@
                 need to be sure there isn't anything embarrassing hidden in the
                 middle of text. </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-6">
             <i class="glyphicon glyphicon-random"></i>
 
             <h3>Go Anywhere</h3>
@@ -69,11 +80,9 @@
                 generator
                 on the Internet. It uses a dictionary of over 200 Latin words,
                 combined with a handful of model sentence structures, to generate
-                Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is
-                therefore always free from repetition, injected humour, or
-                non-characteristic words etc.</p>
+                Lorem Ipsum which looks reasonable. The generated.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-6">
             <i class="glyphicon glyphicon-apple"></i>
 
             <h3>RocketBus&reg;</h3>
